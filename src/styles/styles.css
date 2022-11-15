@@ -33,8 +33,16 @@
   padding-top: 20px;
 }
 
+.folder__list .folder__list {
+  padding-top: 5px;
+}
+
 .folder__item {
   padding-left: 20px;
+}
+
+.folder__list .folder__list .folder__item {
+  padding-left: 15px;
 }
 
 .folder__item + .folder__item {
@@ -57,7 +65,11 @@
   background-color: #eee;
 }
 
-.folder__link svg {
+.folder__img {
   fill: #5da5df;
   margin-right: 5px;
+}
+
+.folder__img--file {
+  
 }
